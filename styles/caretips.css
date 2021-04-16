@@ -1,0 +1,8 @@
+.care__tips {
+    border: 1rem;
+    border-style: solid;
+    border-color: crimson;
+    margin: 3rem;
+    padding: 2rem;
+    height: 100%;
+}

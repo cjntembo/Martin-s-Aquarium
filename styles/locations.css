@@ -1,0 +1,25 @@
+.section--locations {
+    display: flex;
+    flex-basis: 12%;
+    flex-wrap: wrap;    
+    border: .5rem;
+    border-style: solid;
+    border-color: crimson;
+    margin: 3rem;
+    padding: 2rem;
+}
+.title--locations {
+    text-align: center;
+    margin: 2%;
+    padding: 2%;
+    width: 100%;
+}
+.location {
+    display: flex;
+    flex-basis: 20%;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: 1% 1%;
+    padding: 1%;
+}
