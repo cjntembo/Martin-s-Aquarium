@@ -1,8 +1,19 @@
 .care__tips {
-    border: 1rem;
+    /*border: 1rem;
     border-style: solid;
-    border-color: crimson;
-    margin: 3rem;
+    border-color: crimson;*/
+    margin: 0 3rem;
     padding: 2rem;
-    height: 100%;
+    height: auto;
+    justify-content: center;
+}
+
+.aside--title {
+    display: flex;
+    justify-content: center;
+    font-size: 65px;
+}
+
+.ul--care__tips {
+    font-size: 50px;
 }

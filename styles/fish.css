@@ -5,7 +5,7 @@
     border: .5rem;
     border-style: solid;
     border-color: crimson;
-    margin: 3rem;
+    margin: .5rem 3rem;
     padding: 2rem;
 }
 .fishes {
@@ -13,17 +13,39 @@
     margin: 2%;
     padding: 2%;
     width: 100%;
+    font-size: 75px;
 }
 
+.fish{
+    display: flex;
+    margin: 2%;
+
+}
 
 .each__fish {
+    /*border: fuchsia dotted 2px;*/
     display: flex;
-    flex-basis: 20%;
-    justify-content: center;
     flex-direction: column;
-    flex-wrap: wrap;
-    margin: 1% 1%;
-    padding: 1%;
-    border: fuchsia dotted 2px;
-    width: 33.33%;
+    margin: .5% .5% .5% 5%;
 }
+
+.fish_name {
+    font-size: 25px;
+}
+
+.fish_species {
+    font-size: 15px;
+}
+
+.fish_length {
+    font-size: 15px;
+}
+
+.fish_location {
+    font-size: 15px;
+}
+
+.fish_eats {
+    font-size: 15px;
+}
+

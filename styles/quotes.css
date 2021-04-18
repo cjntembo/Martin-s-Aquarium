@@ -2,21 +2,22 @@
     border: .5rem;
     border-style: solid;
     border-color: crimson;
-    margin: 3rem;
+    margin: .5rem 3rem;
     padding: 2rem;
 }
 .title--quotes {
     text-align: center;
     margin: 2%;
-    padding: 2%;
-    width: 100%;
+    font-size: 75px;
 }
 .quote {
     display: flex;
     flex-basis: 20%;
     justify-content: center;
     flex-direction: row;
-    flex-wrap: nowrap;
     margin: 1% 1%;
     padding: 1%;
+    font-weight: bolder;
+    font-size: 50px;
+    text-align: center;
 }

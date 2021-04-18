@@ -5,7 +5,7 @@
     border: .5rem;
     border-style: solid;
     border-color: crimson;
-    margin: 3rem;
+    margin: .5rem 3rem;
     padding: 2rem;
 }
 .title--locations {
@@ -13,13 +13,24 @@
     margin: 2%;
     padding: 2%;
     width: 100%;
+    font-size: 75px;
+}
+.div--locations{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;    
+    flex-wrap: wrap;
+    /*display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-column-gap: 10px;*/
 }
 .location {
-    display: flex;
+    /*display: flex;*/
     flex-basis: 20%;
-    justify-content: center;
+    /*justify-content: center;
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: nowrap;*/
     margin: 1% 1%;
     padding: 1%;
 }
