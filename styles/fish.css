@@ -19,14 +19,13 @@
 .fish{
     display: flex;
     margin: 2%;
-
 }
 
 .each__fish {
     /*border: fuchsia dotted 2px;*/
     display: flex;
     flex-direction: column;
-    margin: .5% .5% .5% 5%;
+    margin: 1rem;
 }
 
 .fish_name {
